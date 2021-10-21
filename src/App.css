@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel&family=MedievalSharp&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #181818;
+  color: white;
+  font-family: 'Martel', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.form h1 {
+  font-family: 'MedievalSharp', cursive;
+  padding: 2rem;
+}
+
+.form input {
+  padding: 0.5rem;
+}
+
+.form button {
+  background: crimson;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-family: 'Martel', sans-serif;
+}
+
+.navbar {
+  padding: 2rem;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navlink {
+  margin-right: 1rem;
+  padding: 0.7rem 2rem;
+  background: crimson;
+  border-radius: 6px;
+  color: white;
+  transition: 0.3s;
+}
+
+.navlink:hover {
+  background: rgb(253, 72, 108);
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 1rem;
+  max-width: 20rem;
+}
+
+.btn {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: rgb(253, 72, 108);
+}
+
+.char-btns {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  margin-top: 1.2rem;
+}
+
+.char-btns button {
+  background: crimson;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  padding: 0.3rem 1rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.char-btns button:hover {
+  background: rgb(253, 72, 108);
+}
+
+.char-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+.char-list h1 {
+  font-family: 'MedievalSharp', cursive;
+  padding: 3rem;
+}
+
+
+
+.char {
+  display: block;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  width: 30%;
+}
+
+@media (max-width: 640px) {
+  .char {
+    width: 100%;
+  }
+}
+
+.char span {
+  color: rgb(253, 72, 108);
+}
+
+.edit-input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-input-wrapper button {
+  max-width: 5rem;
+  margin: 0 auto;
+}
+
+.edit-input {
+  max-width: 10rem;
+  margin-top: 1rem;
+}
+
