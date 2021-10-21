@@ -26,7 +26,7 @@ const System = () => {
       return;
     }
 
-    Axios.post('http://localhost:3001/insert', {
+    Axios.post('https://mern-rpgchar.herokuapp.com/insert', {
       name: name,
       age: age,
       race: race,

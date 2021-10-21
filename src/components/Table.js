@@ -6,7 +6,7 @@ const Table = () => {
 
   React.useEffect(() => {
     const getCharList = async () => {
-      const response = await Axios.get('http://localhost:3001/read');
+      const response = await Axios.get('https://mern-rpgchar.herokuapp.com/read');
       setCharList(response.data);
     };
     getCharList();
@@ -31,7 +31,7 @@ const Table = () => {
       return;
     }
 
-    await Axios.put('http://localhost:3001/update', {
+    await Axios.put('https://mern-rpgchar.herokuapp.com/update', {
       id: id,
       newName: newName,
       newAge: newAge,
@@ -57,7 +57,7 @@ const Table = () => {
   };
 
   const deleteChar = async (id) => {
-    await Axios.delete(`http://localhost:3001/delete/${id}`);
+    await Axios.delete(`https://mern-rpgchar.herokuapp.com/delete/${id}`);
     setCharList(charList.filter((char) => char._id !== id));
   };
 
