@@ -8,9 +8,6 @@ You can create, edit and delete RPG characters with a name, age, race, job (clas
 
 The server is hosted on Heroku and the client on Netlify.
 
-## Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Try it
 
