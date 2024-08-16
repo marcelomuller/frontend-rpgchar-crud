@@ -8,7 +8,3 @@ You can create, edit and delete RPG characters with a name, age, race, job (clas
 
 The server is hosted on Heroku and the client on Netlify.
 
-
-## Try it
-
-You can access the app right [here](https://mern-rpgchars.netlify.app/). :)
